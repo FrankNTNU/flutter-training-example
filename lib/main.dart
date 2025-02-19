@@ -24,7 +24,7 @@ class MainApp extends StatelessWidget {
                 height: 80,
               ),
             ),
-            Text('Flutter共用起始專案',
+            Text('GOGOGO',
                 style: TextStyle(
                   fontSize: 24,
                 )),
