@@ -9,10 +9,25 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        body: Column(
+          children: [
+            Container(
+              color: Colors.blue[100],
+              padding: EdgeInsets.symmetric(vertical: 32, horizontal: 8),
+              child: Image.asset(
+                'assets/images/smartman_logo.jpg',
+                width: double.infinity,
+                height: 80,
+              ),
+            ),
+            Text('Flutter共用起始專案',
+                style: TextStyle(
+                  fontSize: 24,
+                )),
+          ],
         ),
       ),
     );
