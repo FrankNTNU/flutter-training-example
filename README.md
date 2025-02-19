@@ -1,3 +1,2 @@
 # flutter_training_example
-
-A new Flutter project.
+> Flutter課程的共用範例專案。
