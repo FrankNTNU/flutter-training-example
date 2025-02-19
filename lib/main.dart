@@ -24,7 +24,7 @@ class MainApp extends StatelessWidget {
                 height: 80,
               ),
             ),
-            Text('Flutter共用起始專案',
+            Text('Flutter共用起始專案123共用起始專案',
                 style: TextStyle(
                   fontSize: 24,
                 )),
